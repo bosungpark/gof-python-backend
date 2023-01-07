@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba73fe53-26fe-4438-bc8f-09f76b7c7d4c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/보성/옵저버_상태_전략/전략.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/보성/템플릿메서드_비지터/템플릿 메서드.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
