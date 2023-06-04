@@ -53,3 +53,6 @@ class Client():
 client = Client()
 client.turn_on(type=RedioType.AM)
 client.turn_on(type=RedioType.FM)
+
+# turn on the redio AM
+# turn on the redio FM
