@@ -5,7 +5,7 @@ class Publisher:
     def register(self, observer):
         self.__observers.append(observer)
     
-    def notifyAll(self, message: str):
+    def notify_all(self, message: str):
         for observer in self.__observers:
             observer.notify(message)
             
@@ -29,7 +29,7 @@ observer1.register(publisher=publisher)
 observer2 = Observer(name='observer2')
 observer2.register(publisher=publisher)
 
-publisher.notifyAll('notification')
+publisher.notify_all('notification')
 
 
 # observer1 got notification!
