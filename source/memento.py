@@ -37,5 +37,5 @@ care_taker.create()
 assert originator.state == 'state1'  
 originator.state = "state2"
 
-care_taker.restore(0)
+care_taker.restore(0)  # rollback to idx 1
 assert originator.state == 'state1'
