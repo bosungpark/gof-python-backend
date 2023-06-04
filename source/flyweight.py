@@ -17,6 +17,7 @@ class Flyweight:
     def __repr__(self):
         return f"Flyweight, key: {self.key}"
     
+    
 flyweight1 = Flyweight(key=uuid.uuid4())
 print([i for i in Flyweight._pool.items()])  # [(UUID('efa02cf0-7ee9-40d3-8703-33ad6a4c531d'), Flyweight, key: efa02cf0-7ee9-40d3-8703-33ad6a4c531d)]
 
