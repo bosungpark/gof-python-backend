@@ -12,6 +12,7 @@ singleton1_1 = Singleton1()  # create
 singleton1_2 = Singleton1()  # recycle
 assert singleton1_1 == singleton1_2
 
+
 # 2. lazy instantiation 
 class Singleton2:
     _instance = None
@@ -36,7 +37,8 @@ assert singleton2_2 == singleton2_3
 singleton2_4 = Singleton2.create_instance()
 assert singleton2_2 == singleton2_4
 
-# monostate singleton, 객체의 유무보다는 상태를 균일하게 만드는 것에 집중하는 패턴
+
+# 3. monostate singleton, 객체의 유무보다는 상태를 균일하게 만드는 것에 집중하는 패턴
 class Singleton3:
     __shared_state = dict()
     def __init__(self):
