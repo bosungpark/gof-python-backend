@@ -30,3 +30,7 @@ observer2 = Observer(name='observer2')
 observer2.register(publisher=publisher)
 
 publisher.notifyAll('notification')
+
+
+# observer1 got notification!
+# observer2 got notification!
