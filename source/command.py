@@ -24,10 +24,10 @@ class Person:
     def __init__(self, command):
         self.command = command
 
-    def do_homework(self):
+    def speak(self):
         self.command.execute()
 
 
 command = Speak(word=Word())
 person = Person(command=command)
-person.do_homework()
+person.speak()
